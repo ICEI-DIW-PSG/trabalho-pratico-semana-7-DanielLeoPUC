@@ -1,13 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="app.js">
+    <title>VAN GOGH</title>
 </head>
+
 <body>
-    <h1>Olá mundo</h1>
+    <div id="template"><img src="img\template.jpg" alt="template" width="100%" height="300px"></div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3 fixed-top">
+            <a class="navbar-brand" href="#">Van Gogh</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <article class="col-12  col-sm-6 col-md-6 col-lg-6 col-xl-4 border border-light">
+                        <img src="img/avinha.jpg" alt=" foto1" width="200" height="120">
+                        <h2 id="tituloum">A Vinha Encarnada</h2>
+                        <p>&nbsp; A Vinha Encarnada é um quadro do pintor holandês Vincent Van Gogh, concluído no início
+                            de novembro de 1888.
+                            <br>&nbsp; Esta foi a única peça vendida pelo artista em vida. O quadro foi adquirido em
+                            Bruxelas por 400 Francos, por Anna Boch.
+                        </p>
+                    </article>
+                    <article class="col-12  col-sm-6 col-md-6 col-lg-6 col-xl-4 border border-light">
+                        <img src="img/giracois.jpg" alt=" foto2" width="200" height="200">
+                        <h2 id="tituloum">Os girassóis</h2>
+                        <p>&nbsp; Van Gogh pintou uma série de 11 quadros de girassóis (quatro em Paris e sete em
+                            Arles), que se tornaram algumas das suas obras mais icónicas, simbolizando para ele
+                            felicidade, gratidão,
+                            força e resistência.
+                        </p>
+                    </article>
+                    <article class="col-12  col-sm-6 col-md-6 col-lg-6 col-xl-4 border border-light">
+                        <img src="img/noiteestrelada.jpg" alt=" foto3" width="200" height="200">
+                        <h2 id="titulotres">A noite estrelada</h2>
+                        <p>&nbsp; A Noite Estrelada é uma pintura de Vincent van Gogh de 1889. A obra retrata a vista da
+                            janela de um quarto do hospício de Saint-Rémy-de-Provence, pouco antes do nascer do sol, com
+                            a
+                            adição de um vilarejo idealizado pelo artista.
+                            <br>&nbsp; A tela faz parte da coleção permanente do Museu de Arte Moderna de Nova Iorque
+                            desde
+                            1941.
+                        </p>
+                    </article>
+                    <article class="col-12  col-sm-6  col-md-6 col-lg-6 col-xl-4  border border-light">
+                        <img src="img/autoretrato.jpg" alt="foto4" width="200" height="200">
+                        <h2 id="tituloum">Autorretrato com Chapéu de Feltro</h2>
+                        <p>&nbsp;"Autorretrato com Chapéu de Feltro" é um óleo sobre tela, pintado por Vincent van Gogh
+                            em 1888.
+                            <br>&nbsp; Van Gogh pintou esta tela no inverno europeu de 1887-1888, quando viveu em Paris
+                            por dois anos.
+                        </p>
+                    </article>
+                    <article class="col-12  col-sm-6 col-md-6 col-lg-6 col-xl-4 border border-light">
+                        <img src="img/vaso.jpg" alt="foto5" width="200" height="200">
+                        <h2 id="tituloum">Vaso com íris</h2>
+                        <p>&nbsp;Vaso com íris contra um fundo amarelo é uma pintura a óleo sobre tela feita em 1889
+                            pelo pintor Vincent Van Gogh. Está preservado no Museu Van Gogh em Amsterdã.
+                            <br> &nbsp; É um dos trabalhos realizados enquanto ele estava internado na clínica
+                            psiquiátrica de Saint-Rémy, cidade próxima a Arles.
+                        </p>
+                    </article>
+                    <article class="col-12  col-sm-6 col-md-6 col-lg-6 col-xl-4 border border-light ">
+                        <img src="img/oscomedores.jpg" alt=" foto6" width="200" height="200">
+                        <h2 id="tituloum">Os comedores de batata</h2>
+                        <p> &nbsp; Os comedores de batata é um quadro do pintor Vincent van Gogh, terminado em abril de
+                            1885.
+                            <br>&nbsp;o retrato de uma época, de uma classe trabalhadora e sua base alimentar.
+                        </p>
+                    </article>
+                    <aside class="col-12">
+                        <h1>Vincent van Gogh</h1>
+                        <p>&nbsp; Vincent van Gogh foi um pintor pós-impressionista holandês (1853-1890) que produziu
+                            mais de 2.000 obras, incluindo 900 pinturas, em menos de uma década, mas vendeu apenas uma
+                            em vida. Antes
+                            de se dedicar à arte aos 27 anos, trabalhou como vendedor de arte, professor e pastor,
+                            levando uma vida
+                            emocionalmente turbulenta marcada por problemas de saúde mental e pobreza.
+                            &nbsp; Após sua morte no anonimato, Van Gogh tornou-se um dos artistas mais influentes da
+                            história, conhecido por sua obra vibrante e emotiva, hoje avaliada em milhões de dólares.
+                        <h4>&nbsp; Carreira Artística</h4>
+                        <p> &nbsp;Pós-Impressionismo: Van Gogh é um dos principais expoentes do pós-impressionismo.
+                        <h4>&nbsp; Estilo:</h4>
+                        <p>&nbsp; Sua obra é marcada pelo uso expressivo da cor, beleza e emoção, influenciando a
+                            arte do século XX.</p>
+                        <h4>&nbsp; Produção:</h4>
+                        <p> &nbsp;Criou cerca de 2.500 obras (incluindo 900 pinturas a óleo) em apenas 10 anos.</p>
+                        <h4>&nbsp; Reconhecimento Póstumo</h4>
+                        <p> &nbsp;Durante a vida, vendeu apenas uma pintura, "A Vinha Encarnada".</p>
+                        <p>&nbsp; O Legado e a fama e o reconhecimento de sua obra vieram após sua morte, e ele hoje é
+                            considerado um dos maiores pintores da história.</p>
+                        <nav>
+                            <ul class="extras">
+                                <li><a href="https://pt.wikipedia.org/wiki/Vincent_van_Gogh" rel="34dgg"
+                                        target="_blank">Bibliografia</a></li>
+                                <li><a href="https://arteref.com/arte/curiosidades/20-fatos-curiosos-sobre-van-gogh-que-voce-nao-sabia/"
+                                        rel="34dgg" target="_blank">Curiosidades</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <p>Deseja receber recomendaçõs da nossa página por e-mail?</p>
+                        <form action="/processar-dados" method="post">
+                            <label for="nome">Digite seu e-mail:</label>
+                            <input type="text" id="nome" name="nome"><br><br>
+                            <input type="submit" value="Enviar E-mail">
+                        </form>
+                        <a href="#template">(Clique aqui para ir ao início da página)</a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Daniel Leo
+            <br>Puc São Gabriel
+            <br>31/08/2025
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
