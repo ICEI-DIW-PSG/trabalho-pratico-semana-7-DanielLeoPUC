@@ -48,6 +48,7 @@ article  img {
 .container-fluid h4, p {
 
     padding: 8px;
+    
 }
 .container-fluid article{
     text-align: center;
@@ -97,7 +98,7 @@ article:hover {
 
   /* aside inicio */
 aside {
-      background-color:rgba(255, 255, 255, 0.904);
+    
     border: 1px solid777;
     padding: 8px;
     float :right;
@@ -105,22 +106,24 @@ aside {
  
 
 }
-aside h1, h2, p {
+aside  h1, h2,h4 {
     padding: 30px;
 }
+aside p{
 
+    padding: 50px;
+}
+
+.input {
+    display: block;
+}
 aside  a, li{
 
     text-decoration: none;
     margin: 20px;
 
 }
-aside form {
 
-    padding: 10px;
-    
-
-}
 
 
   /* aside fim */
