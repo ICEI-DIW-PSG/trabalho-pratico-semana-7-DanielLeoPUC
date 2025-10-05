@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="app.js">
     <title>VAN GOGH</title>
 </head>
 
-<body>
+<body onload="carregarCards()">
     <div id="template"><img src="img\template.jpg" alt="template" width="100%" height="350px"></div>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3 fixed-top">
@@ -37,33 +36,22 @@
     </header>
     <main>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 ">
-                        <div class="row" id="tela">
-                        </div>
-                    </div>
-                </div>
+                <div class="row" id ="tela">
+           </div>
     </main>
-    
-    <aside>
-        <div class="row">
-            <div class="col-12 ">
-                <div class="row" id="as">
-                </div>
-            </div>
-        </div>
-    </aside>
-
+  
     <footer>
         <p>Criado por Daniel Leo
             <br>Puc São Gabriel
             <br>31/08/2025
         </p>
     </footer>
+ 
+  <script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="app.js"></script>
+   
 </body>
 
 </html>
