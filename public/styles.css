@@ -74,7 +74,7 @@ article  img {
     
 }
 .container-fluid div button:hover{
-    background-color:rgba(41, 165, 223, 0.856);
+   background-color:rgba(233, 233, 38, 0.856);
     color: white;
     border: 1px solid white;
    
@@ -95,7 +95,7 @@ article  img {
     
 }
 #btnbtn:hover{
-    background-color:rgba(41, 165, 223, 0.856);
+     background-color:rgba(233, 233, 38, 0.856);
     color: white;
     border: 1px solid white;
    
