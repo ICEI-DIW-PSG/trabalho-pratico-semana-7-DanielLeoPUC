@@ -1,3 +1,4 @@
+
 **Páginas de detalhes dinâmicas**
 
 Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detalhes, conforme o  projeto escolhido. Imagine que a página principal (home-page) mostre um visão dos vários itens que existem no seu site. Ao clicar em um item, você é direcionado pra a página de detalhes. A página de detalhe vai mostrar todas as informações sobre o item do seu projeto. seja esse item uma notícia, filme, receita, lugar turístico ou evento.
@@ -17,12 +18,12 @@ Leia o enunciado completo no Canvas.
 
 ## Print da Home-Page
 
-![Print da Home-page](public\img\home7.PNG)
-![Print da Home-page parte2](public\img\HomePage7.0.2.PNG)
+![Print da Home-page](public/img/home7.PNG)
+![Print da Home-page parte2](public/img/HomePage7.0.2.PNG)
 
 ## Print da página de detalhes do item
 
-![Print da Página de detalhes](public\img\Detalhes7.PNG)
+![Print da Página de detalhes](public/img/Detalhes7.PNG)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
